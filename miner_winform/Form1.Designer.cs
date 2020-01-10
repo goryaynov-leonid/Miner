@@ -180,7 +180,7 @@
             this.btnTurnLeft.Text = "<<";
             this.btnTurnLeft.UseVisualStyleBackColor = true;
             this.btnTurnLeft.Visible = false;
-            this.btnTurnLeft.Click += new System.EventHandler(this.btnTurnLeft_Click);
+            this.btnTurnLeft.Click += new System.EventHandler(this.BtnTurnLeftClick);
             // 
             // btnTurnRight
             // 
