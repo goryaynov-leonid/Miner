@@ -82,7 +82,7 @@
             this.layer2.Size = new System.Drawing.Size(252, 252);
             this.layer2.TabIndex = 2;
             this.layer2.TabStop = false;
-            this.layer2.Paint += new System.Windows.Forms.PaintEventHandler(this.layer2_Paint);
+            this.layer2.Paint += new System.Windows.Forms.PaintEventHandler(this.Layer2Paint);
             this.layer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.layer2_MouseDown);
             // 
             // layer3
@@ -92,7 +92,7 @@
             this.layer3.Size = new System.Drawing.Size(252, 252);
             this.layer3.TabIndex = 3;
             this.layer3.TabStop = false;
-            this.layer3.Paint += new System.Windows.Forms.PaintEventHandler(this.layer3_Paint);
+            this.layer3.Paint += new System.Windows.Forms.PaintEventHandler(this.Layer3Paint);
             this.layer3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.layer3_MouseDown);
             // 
             // labelLayer1
