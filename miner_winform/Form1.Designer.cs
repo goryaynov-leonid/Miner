@@ -72,7 +72,7 @@
             this.layer1.Size = new System.Drawing.Size(252, 252);
             this.layer1.TabIndex = 1;
             this.layer1.TabStop = false;
-            this.layer1.Paint += new System.Windows.Forms.PaintEventHandler(this.layer1_Paint);
+            this.layer1.Paint += new System.Windows.Forms.PaintEventHandler(this.Layer1Paint);
             this.layer1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.layer1_MouseDown);
             // 
             // layer2
