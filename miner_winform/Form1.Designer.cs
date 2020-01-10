@@ -192,7 +192,7 @@
             this.btnTurnRight.Text = ">>";
             this.btnTurnRight.UseVisualStyleBackColor = true;
             this.btnTurnRight.Visible = false;
-            this.btnTurnRight.Click += new System.EventHandler(this.btnTurnRight_Click);
+            this.btnTurnRight.Click += new System.EventHandler(this.BtnTurnRightClick);
             // 
             // labelMines
             // 
