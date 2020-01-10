@@ -83,7 +83,7 @@
             this.layer2.TabIndex = 2;
             this.layer2.TabStop = false;
             this.layer2.Paint += new System.Windows.Forms.PaintEventHandler(this.Layer2Paint);
-            this.layer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.layer2_MouseDown);
+            this.layer2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Layer2MouseDown);
             // 
             // layer3
             // 
