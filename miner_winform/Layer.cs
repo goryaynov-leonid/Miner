@@ -9,7 +9,6 @@ namespace miner_winform
 {
     public class Layer
     {
-        private const int _cellPixelSize = 25;
         private const int _fontSize = 13;
         private const int _horizontalStringMargin = 5;
         private const int _verticalStringMargin = 3;
@@ -28,7 +27,8 @@ namespace miner_winform
             int _sizeY, 
             int _sizeX,
             int k, 
-            Cell[,,] _field)
+            Cell[,,] _field, 
+            int _cellPixelSize)
         {
             for (int i = 0; i < _sizeY; i++)
                 for (int j = 0; j < _sizeX; j++)
